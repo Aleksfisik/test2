@@ -9,7 +9,7 @@ public class Main {
     private static final User user1 = new User("Green", "Been", (byte) 13);
     private static final User user2 = new User("Sava", "Ivanov", (byte) 24);
     private static final User user3 = new User("Piter", "Parker", (byte) 14);
-    private static final User user4 = new User("John", "Connor", (byte) 72);
+    private static final User user4 = new User("Jon", "Connor", (byte) 72);
 
     public static void main(String[] args) {
         userService.createUsersTable();
